@@ -1,0 +1,140 @@
+.cont {
+    height: 100%;
+    width: 50vh;
+    margin: auto;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    margin-top: -55px;
+}
+
+form input {
+    border: none;
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    background-color: bisque;
+    margin: 2px;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+form input[type="button"]:hover {
+background-color: blueviolet;
+color: antiquewhite;
+font-weight: bolder;
+}
+
+form .display{
+    margin: 5px 0px 10px 0px;
+    display: flex;
+    justify-content: right;
+}
+form .display input{
+    flex: 1;
+    text-align: right;
+    font-size: 30px;
+    background-color: darkgrey;
+    padding: 5px 10px;
+}
+
+.equal {
+    width: 125px;
+}
+
+.todoinput {
+    flex: 1;
+    
+}
+
+.conti{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.forr{
+    width: 320px;
+    padding: 0px 15px 0px 15px;
+}
+.srch {
+    width: 75px;
+}
+.srch:hover {
+    color: white;
+    background-color: blueviolet;
+}
+
+.snpshtname {
+    text-align: center;
+}
+
+  .grid-item {
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+  }
+  img.auto {
+    height: 315px;
+    width: 370px;
+}
+.cento {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+input.snpshht {
+    padding: 6px;
+    font-size: 25px;
+    margin: 16px;
+    border-radius: 12px;
+}
+.searxchh {
+    margin-top: 20px;
+    height: 50px;
+    padding: 9px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+.searxchh:hover {
+    color: black;
+    background-color:darkslategray
+}
+
+@media screen and (min-width:1190px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto auto !important;
+        padding: 25px;
+      }
+    
+}
+@media screen and (min-width:550px)  and (max-width:1189px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto !important;
+        padding: 25px;
+      }
+    
+}
+@media screen and (min-width:220px) and (max-width:549px){
+    .grid {
+        display: grid;
+        grid-template-columns: auto !important;
+        padding: 25px;
+      }
+    
+}
+.shpng {
+    color: black;
+    text-align: center;
+    font-size: 34px;
+    margin-top: -25px;
+}
